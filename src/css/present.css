@@ -1,0 +1,69 @@
+.error {
+    border: solid 2px #c00303;
+}
+
+.checked {
+    border: solid 2px #03c023;
+}
+
+body {
+    background-image: url(../image/background.png);
+    background-color: #c0afaf;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 600px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+.main .note {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.main .note .title {
+    color: #fff;
+    background-color: black;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.main .note .your-note {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.main .note .btn-note {
+    border-radius: 5px;
+    padding: 8px;
+    width: 70px;
+}
+
+.main .letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: none;
+}
+
+.main .letter .img-letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
